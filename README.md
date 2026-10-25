@@ -103,6 +103,7 @@ Edit `.env` locally. Do not commit it.
 | `docs/05-fail2ban-hermes-prep.md` | Fail2Ban hardening and Hermes node prep |
 | `docs/06-hermes-soc-tools-triage.md` | Hermes Agent, SOC triage tools, local skills |
 | `docs/07-migration-loki-to-victorialogs.md` | Loki → VictoriaLogs migration guide |
+| `docs/runbook-waf-cloudflare-blocklist.public.md` | WAF traversal, real-IP CDN, blokir IP di origin |
 
 ## Skills
 
