@@ -64,11 +64,12 @@ Edit `.env` locally. Do not commit it.
 ├── loki/
 ├── promtail/
 ├── crowdsec/
-├── nginx/
+├── nginx/                   # real-IP, WAF traversal, contoh aturan blokir
 ├── cloudflare/
 ├── alerts/
 ├── scripts/
-│   └── soc-tools/           # Hermes triage scripts
+│   ├── soc-tools/           # Hermes triage scripts
+│   └── waf/                 # pemasang WAF + blokir IP (nginx & Caddy)
 ├── docs/
 └── skills/
     └── 08-hermes-soc-local/ # Local SOC triage skill for Hermes
